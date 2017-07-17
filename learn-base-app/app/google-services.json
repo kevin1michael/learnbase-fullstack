@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "781533331269",
+    "firebase_url": "https://learnbase-e3347.firebaseio.com",
+    "project_id": "learnbase-e3347",
+    "storage_bucket": "learnbase-e3347.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781533331269:android:c8b2206721a19bf3",
+        "android_client_info": {
+          "package_name": "com.uwaterloo.learnbase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781533331269-0qq7f6tlle95hnnrcvricc93f97gnts4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uwaterloo.learnbase",
+            "certificate_hash": "2a665c4de22d4205571e6c1a4eeefb32c76f6020"
+          }
+        },
+        {
+          "client_id": "781533331269-maqlsmgmauafnqha845s6pq8f6s1ln90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHPPsuEZUHvaaUt4K4SLaAN9mOmIb75Bo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781533331269-maqlsmgmauafnqha845s6pq8f6s1ln90.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

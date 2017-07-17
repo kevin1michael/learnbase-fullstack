@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uwaterloo.LearnBase">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".login.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoginTheme">
+        </activity>
+        <activity
+            android:name=".messages.MessagingActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".navigation" />
+        <activity android:name=".StoryTitleActivity" />
+        <activity android:name=".PageActivity" />
+        <activity android:name=".NextPageActivity" />
+        <activity android:name=".StoriesActivity"></activity>
+        <activity
+            android:name=".students.StudentListActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>
